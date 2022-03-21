@@ -10,12 +10,12 @@ function calcular(n1, n2) {
             document.getElementById("resultado").innerHTML = `O resultado da soma de ${n1} + ${n2} = ${calculo}`
             break
         
-            
+
         case "-":
             calculo = (n1 - n2)
             document.getElementById("resultado").innerHTML = `O resultado da subtracao de ${n1} - ${n2} = ${calculo}`
             break
-~
+
 
         case "/":
             calculo = Math.round((n1 / n2))
