@@ -10,10 +10,12 @@ function calcular(n1, n2) {
             document.getElementById("resultado").innerHTML = `O resultado da soma de ${n1} + ${n2} = ${calculo}`
             break
         
+            
         case "-":
             calculo = (n1 - n2)
             document.getElementById("resultado").innerHTML = `O resultado da subtracao de ${n1} - ${n2} = ${calculo}`
             break
+~
 
         case "/":
             calculo = Math.round((n1 / n2))
@@ -21,11 +23,13 @@ function calcular(n1, n2) {
                  document.getElementById("resultado").innerHTML = `Insira um numero divisivel valido!`
              } else {
                  document.getElementById("resultado").innerHTML = `O resultado da divisao de ${n1} / ${n2} = ${calculo}`
-             break
              }
+             break
+             
+
         case "*":
             calculo = (n1 * n2)
-            document.getElementById("resultado").innerHTML = `O resultado da multiplicao de ${n1} * ${n2} = ${calculo}`
+            document.getElementById("resultado").innerHTML = `O resultado da multiplicacao de ${n1} * ${n2} = ${calculo}`
             break
     }
 }
