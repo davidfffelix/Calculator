@@ -16,7 +16,7 @@ input {
     box-sizing: border-box;
 }
 
-form {
+#form {
     width: 25%;
 }
 
